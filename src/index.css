@@ -83,6 +83,9 @@ form input {
 form input::placeholder{
     color: #ffffffaa;
 }
+form input:hover {
+    background: rgba(164, 11, 11, 0.4);
+}
 form button {
     font-weight: bold;
 }

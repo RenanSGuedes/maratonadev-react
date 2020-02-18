@@ -24,7 +24,7 @@ export default function App(){
     return (
         <>
             <header>
-                <h1>D<div class="o"><div class="shine"></div></div>E</h1>
+                <h1>D<div className="o"><div className="shine"></div></div>E</h1>
                 <h2>A sua doação importa</h2>
                 <p>Até 3 vidas com 1 doação</p>
                 <p>Mais de 30.000 doações são necessárias todos os dias</p>
@@ -60,21 +60,21 @@ export default function App(){
 
             <main>
                 <h2>Últimos <span>doadores</span></h2>
-                <section class="donors"> 
-                    <div class="donor">
-                        <div class="blood">AB+</div>
+                <section className="donors"> 
+                    <div className="donor">
+                        <div className="blood">AB+</div>
                         <p>Diego Fernandes</p>
                     </div>
-                    <div class="donor">
-                        <div class="blood">B+</div>
+                    <div className="donor">
+                        <div className="blood">B+</div>
                         <p>Cleiton Souza</p>
                     </div>
-                    <div class="donor">
-                        <div class="blood">A+</div>
+                    <div className="donor">
+                        <div className="blood">A+</div>
                         <p>Robson Marques</p>
                     </div>
-                    <div class="donor">
-                        <div class="blood">O+</div>
+                    <div className="donor">
+                        <div className="blood">O+</div>
                         <p>Mayk Brito</p>
                     </div>
                 </section>
